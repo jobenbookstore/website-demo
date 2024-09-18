@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🕎JOBEN bestsellers🔯</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <style>
+        main {
+            flex-grow: 1;
+            padding: 2rem;
+
+        }
+        .bestseller-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .book-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .book-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .book-card img {
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .book-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .book-author {
+            color: #666;
+            margin-bottom: 5px;
+        }
+        .book-price {
+            font-weight: bold;
+            color: #4CAF50;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <img id="jojo" src="jo.jpeg">
+        <h1 style="text-align: center;">JOBEN BOOK STORE  BEST SELLERS</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="bestsellers.html">Bestsellers</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="signupform.html">Signout</a></li><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h280v80H200Zm440-160-55-58 102-102H360v-80h327L585-622l55-58 200 200-200 200Z"/></svg>
+            </ul>
+        </nav>
+        </header>
+
+    <main>
+        <h2>Bestsellers</h2>
+        <div class="bestseller-grid">
+            <div class="book-card">
+                <img src="ff.jpg" alt="Book 1 Cover">
+                <div class="book-title">The Great Adventure</div>
+                <div class="book-author">by John Doe</div>
+                <div class="book-price">$19.99</div>
+            </div>
+            <div class="book-card">
+                <img src="qq.jpg" alt="Book 2 Cover">
+                <div class="book-title">Mystery at Midnight</div>
+                <div class="book-author">by Jane Smith</div>
+                <div class="book-price">$24.99</div>
+            </div>
+            <div class="book-card">
+                <img src="rr.jpg" alt="Book 3 Cover">
+                <div class="book-title">Cooking Masterclass</div>
+                <div class="book-author">by Chef Gordon</div>
+                <div class="book-price">$29.99</div>
+            </div>
+            <div class="book-card">
+                <img src="vv.jpg" alt="Book 4 Cover">
+                <div class="book-title">Secrets of the Universe</div>
+                <div class="book-author">by Dr. Alice Green</div>
+                <div class="book-price">$22.99</div>
+            </div>
+            <div class="book-card">
+                <img src="gg.jpg" alt="Book 5 Cover">
+                <div class="book-title">Historical Legends</div>
+                <div class="book-author">by Prof. Robert Brown</div>
+                <div class="book-price">$27.99</div>
+            </div>
+            <div class="book-card">
+                <img src="ss.jpg" alt="Book 6 Cover">
+                <div class="book-title">The Art of Mindfulness</div>
+                <div class="book-author">by Sarah Johnson</div>
+                <div class="book-price">$18.99</div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <address>
+                <h2>Contact Us</h2>
+                <p>Email: joshkeen100@gmail.com</p>
+                <p>Email: shema.com70@gmail.com</p>
+                <p>Phone: (+250) 7825-72919</p>
+                <p>Phone: (+250) 7817-95878</p>
+            </address>
+        </div>
+        <p>&copy; 2024 JOBEN Book Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
